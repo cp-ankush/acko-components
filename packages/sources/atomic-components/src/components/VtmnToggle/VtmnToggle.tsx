@@ -1,7 +1,5 @@
 import * as React from 'react';
 import clsx from 'clsx';
-
-import '@acko-components/css-toggle';
 import { VtmnToggleSize } from './types';
 
 export interface VtmnToggleProps

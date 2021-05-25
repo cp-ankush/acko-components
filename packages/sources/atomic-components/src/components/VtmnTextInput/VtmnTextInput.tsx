@@ -1,8 +1,6 @@
 import * as React from 'react';
 import clsx from 'clsx';
 
-import '@acko-components/css-text-input';
-
 export interface VtmnTextInputProps
   extends React.ComponentPropsWithoutRef<'input'> {
   /**

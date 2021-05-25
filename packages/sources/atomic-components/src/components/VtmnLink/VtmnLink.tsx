@@ -1,7 +1,5 @@
 import * as React from 'react';
 import clsx from 'clsx';
-
-import '@acko-components/css-link';
 import { VtmnLinkSize } from './types';
 
 export interface VtmnLinkProps extends React.ComponentPropsWithoutRef<'a'> {

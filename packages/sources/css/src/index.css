@@ -9,14 +9,3 @@
 @import './design-tokens/src/colors';
 @import './design-tokens/src/spacings';
 @import './design-tokens/src/typography';
-
-/* Utilities */
-@import './utilities/src/typography';
-
-/* Components */
-@import './components/button/src';
-@import './components/checkbox/src';
-@import './components/link/src';
-@import './components/text-input/src';
-@import './components/toggle/src';
-@import './components/radio-button/src';

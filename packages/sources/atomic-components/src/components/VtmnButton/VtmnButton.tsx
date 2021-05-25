@@ -1,5 +1,4 @@
 import * as React from 'react';
-import '@acko-components/css-button';
 import { VtmnButtonVariant, VtmnButtonSize } from './types';
 
 export interface VtmnButtonProps
