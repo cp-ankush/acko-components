@@ -33,7 +33,7 @@ export const Icon: React.FC<VtmnIconProps> = ({
   ...props
 }) => (
   <span
-    className={`vtmx-${value} ${className ? className : ''}`}
+    className={`acx-${value} ${className ? className : ''}`}
     style={{ fontSize: size, color: `var(--vtmn-color_${color})`, ...style }}
     aria-label={ariaLabel ? ariaLabel : value}
     {...props}></span>

@@ -61,20 +61,20 @@ Use the SVG sprite to insert any icon through the `<use>` element. Use the iconâ
 
 ### Icon font
 
-Icon fonts with classes for every icon are also included. Include the icon web fonts in your page via CSS (`./node_modules/@acko-components/icons/dist/ackox/font/ackox.css`), then reference the class names as needed (e.g. `vtmx-home-fill` for the `home-fill` icon) in your HTML.
+Icon fonts with classes for every icon are also included. Include the icon web fonts in your page via CSS (`./node_modules/@acko-components/icons/dist/ackox/font/ackox.css`), then reference the class names as needed (e.g. `acx-home-fill` for the `home-fill` icon) in your HTML.
 
 Use `font-size` and `color` to change the icon appearance.
 
 If your icon is followed by a text:
 
 ```html
-<span aria-hidden="true" class="vtmx-home-fill"> </span> Homepage
+<span aria-hidden="true" class="acx-home-fill"> </span> Homepage
 ```
 
 If your icon is alone:
 
 ```html
-<span aria-label="Homepage" class="vtmx-home-fill"> </span>
+<span aria-label="Homepage" class="acx-home-fill"> </span>
 ```
 
 ### CSS
@@ -84,7 +84,7 @@ You can also use the SVG within your CSS (**be sure to escape any characters**, 
 The `viewBox` attribute is required if you wish to resize icons with `background-size`. Note that the `xmlns` attribute is required.
 
 ```css
-.vtmx::before {
+.acx::before {
   display: inline-block;
   content: '';
   vertical-align: -0.125em;

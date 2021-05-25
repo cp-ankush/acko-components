@@ -4,7 +4,7 @@ module.exports = {
   fontTypes: ['ttf', 'woff', 'woff2'],
   assetTypes: ['ts', 'css', 'json', 'html'],
   name: 'ackox',
-  prefix: 'vtmx',
+  prefix: 'acx',
   normalize: true,
   templates: {
     css: './src/templates/css.hbs'
