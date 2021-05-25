@@ -1,8 +1,8 @@
-# `@acko-components/showcase-react` (private)
+# `@acko-components/showcase-atomic-components` (private)
 
 > Decathlon Design System - Vitamin React showcase
 
-<a href="https://decathlon.github.io/vitamin-web/@acko-components/showcase-react"><img src="https://img.shields.io/badge/storybook-react-61DAFB?style=flat&logo=storybook" alt="storybook" /></a>
+<a href="https://decathlon.github.io/vitamin-web/@acko-components/showcase-atomic-components"><img src="https://img.shields.io/badge/storybook-react-61DAFB?style=flat&logo=storybook" alt="storybook" /></a>
 
 ## I have an issue, what should I do?
 

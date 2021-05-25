@@ -172,10 +172,10 @@ This package provides you with a library of [React](https://reactjs.org/) compon
 
 <table>
   <tr>
-    <th>@acko-components/react</th>
+    <th>@acko-components/atomic-components</th>
     <td><a href="https://github.com/Decathlon/vitamin-web/tree/main/packages/sources/react#readme">README</a></td>
-    <td><a href="https://decathlon.github.io/vitamin-web/@acko-components/showcase-react"><img src="https://img.shields.io/badge/storybook-react-61DAFB?style=flat&logo=storybook" alt="storybook" /></a></a></td>
-    <td><a href="https://www.npmjs.com/package/@acko-components/react"><img src="https://img.shields.io/npm/v/@acko-components/react?style=flat&logo=npm" alt="npm version" /></a></td>
+    <td><a href="https://decathlon.github.io/vitamin-web/@acko-components/showcase-atomic-components"><img src="https://img.shields.io/badge/storybook-react-61DAFB?style=flat&logo=storybook" alt="storybook" /></a></a></td>
+    <td><a href="https://www.npmjs.com/package/@acko-components/atomic-components"><img src="https://img.shields.io/npm/v/@acko-components/atomic-components?style=flat&logo=npm" alt="npm version" /></a></td>
     <td><a href="https://sonarcloud.io/dashboard?id=decathlon_vitamin-web_react"><img src="https://sonarcloud.io/api/project_badges/measure?project=decathlon_vitamin-web_react&metric=alert_status" alt="Quality Gate Status" /></a></td>
   </tr>
 </table>

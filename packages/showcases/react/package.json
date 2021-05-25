@@ -1,5 +1,5 @@
 {
-  "name": "@acko-components/showcase-react",
+  "name": "@acko-components/showcase-atomic-components",
   "version": "0.0.0",
   "private": true,
   "description": "Decathlon Design System - Vitamin React showcase",
@@ -12,7 +12,7 @@
   "dependencies": {},
   "devDependencies": {
     "@acko-components/icons": "*",
-    "@acko-components/react": "*",
+    "@acko-components/atomic-components": "*",
     "@acko-components/showcase-core": "^0.0.0",
     "@storybook/addon-a11y": "^6.2.8",
     "@storybook/addon-essentials": "^6.2.8",

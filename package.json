@@ -41,7 +41,7 @@
     "start": "lerna run start --parallel",
     "start:css": "lerna run start --parallel --scope \"@acko-components/{showcase-css,css}\"",
     "start:icons": "lerna run start --parallel --scope \"@acko-components/{showcase-icons,icons}\"",
-    "start:react": "lerna run start --parallel --scope \"@acko-components/{showcase-react,react}\"",
+    "start:atomic-components": "lerna run start --parallel --scope \"@acko-components/{showcase-atomic-components,atomic-components}\"",
     "stylelint": "stylelint packages/**/*.css",
     "stylelint:fix": "yarn stylelint --fix",
     "test": "lerna run test"

@@ -1,4 +1,4 @@
-import { VtmnLink } from '@acko-components/react';
+import { VtmnLink } from '@acko-components/atomic-components';
 
 import { Meta, Story } from '@storybook/react';
 

@@ -6,7 +6,7 @@ addons.setConfig({
   panelPosition: 'right',
   theme: {
     ...themes.normal,
-    brandTitle: '@acko-components/react',
+    brandTitle: '@acko-components/atomic-components',
     brandUrl: 'https://github.com/Decathlon/vitamin-web',
     brandImage: vtmnReactLogo,
 

@@ -3,55 +3,55 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.3.6](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.3.5...@acko-components/react@0.3.6) (2021-05-13)
+## [0.3.6](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.3.5...@acko-components/atomic-components@0.3.6) (2021-05-13)
 
-**Note:** Version bump only for package @acko-components/react
-
-
-
-
-
-## [0.3.5](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.3.4...@acko-components/react@0.3.5) (2021-05-06)
-
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.3.4](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.3.3...@acko-components/react@0.3.4) (2021-05-06)
+## [0.3.5](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.3.4...@acko-components/atomic-components@0.3.5) (2021-05-06)
 
-**Note:** Version bump only for package @acko-components/react
-
-
-
-
-
-## [0.3.3](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.3.2...@acko-components/react@0.3.3) (2021-05-01)
-
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.3.2](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.3.1...@acko-components/react@0.3.2) (2021-04-29)
+## [0.3.4](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.3.3...@acko-components/atomic-components@0.3.4) (2021-05-06)
 
-**Note:** Version bump only for package @acko-components/react
-
-
-
-
-
-## [0.3.1](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.3.0...@acko-components/react@0.3.1) (2021-04-21)
-
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-# [0.3.0](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.2.3...@acko-components/react@0.3.0) (2021-04-20)
+## [0.3.3](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.3.2...@acko-components/atomic-components@0.3.3) (2021-05-01)
+
+**Note:** Version bump only for package @acko-components/atomic-components
+
+
+
+
+
+## [0.3.2](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.3.1...@acko-components/atomic-components@0.3.2) (2021-04-29)
+
+**Note:** Version bump only for package @acko-components/atomic-components
+
+
+
+
+
+## [0.3.1](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.3.0...@acko-components/atomic-components@0.3.1) (2021-04-21)
+
+**Note:** Version bump only for package @acko-components/atomic-components
+
+
+
+
+
+# [0.3.0](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.2.3...@acko-components/atomic-components@0.3.0) (2021-04-20)
 
 
 ### Bug Fixes
@@ -69,31 +69,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.2.3](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.2.2...@acko-components/react@0.2.3) (2021-04-19)
+## [0.2.3](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.2.2...@acko-components/atomic-components@0.2.3) (2021-04-19)
 
-**Note:** Version bump only for package @acko-components/react
-
-
-
-
-
-## [0.2.2](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.2.1...@acko-components/react@0.2.2) (2021-04-19)
-
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.2.1](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.2.0...@acko-components/react@0.2.1) (2021-04-16)
+## [0.2.2](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.2.1...@acko-components/atomic-components@0.2.2) (2021-04-19)
 
-**Note:** Version bump only for package @acko-components/react
-
-
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
-# [0.2.0](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.28...@acko-components/react@0.2.0) (2021-04-16)
+
+
+## [0.2.1](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.2.0...@acko-components/atomic-components@0.2.1) (2021-04-16)
+
+**Note:** Version bump only for package @acko-components/atomic-components
+
+
+
+
+
+# [0.2.0](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.28...@acko-components/atomic-components@0.2.0) (2021-04-16)
 
 
 ### Features
@@ -107,225 +107,225 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.1.28](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.27...@acko-components/react@0.1.28) (2021-04-16)
+## [0.1.28](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.27...@acko-components/atomic-components@0.1.28) (2021-04-16)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.27](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.26...@acko-components/react@0.1.27) (2021-04-12)
+## [0.1.27](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.26...@acko-components/atomic-components@0.1.27) (2021-04-12)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.26](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.25...@acko-components/react@0.1.26) (2021-04-02)
+## [0.1.26](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.25...@acko-components/atomic-components@0.1.26) (2021-04-02)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.25](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.24...@acko-components/react@0.1.25) (2021-04-02)
+## [0.1.25](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.24...@acko-components/atomic-components@0.1.25) (2021-04-02)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.24](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.23...@acko-components/react@0.1.24) (2021-03-31)
+## [0.1.24](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.23...@acko-components/atomic-components@0.1.24) (2021-03-31)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.23](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.22...@acko-components/react@0.1.23) (2021-03-20)
+## [0.1.23](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.22...@acko-components/atomic-components@0.1.23) (2021-03-20)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.22](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.21...@acko-components/react@0.1.22) (2021-03-20)
+## [0.1.22](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.21...@acko-components/atomic-components@0.1.22) (2021-03-20)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.21](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.20...@acko-components/react@0.1.21) (2021-03-20)
+## [0.1.21](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.20...@acko-components/atomic-components@0.1.21) (2021-03-20)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.20](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.19...@acko-components/react@0.1.20) (2021-03-18)
+## [0.1.20](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.19...@acko-components/atomic-components@0.1.20) (2021-03-18)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.19](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.18...@acko-components/react@0.1.19) (2021-03-17)
+## [0.1.19](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.18...@acko-components/atomic-components@0.1.19) (2021-03-17)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.18](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.17...@acko-components/react@0.1.18) (2021-03-17)
+## [0.1.18](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.17...@acko-components/atomic-components@0.1.18) (2021-03-17)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.17](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.16...@acko-components/react@0.1.17) (2021-03-16)
+## [0.1.17](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.16...@acko-components/atomic-components@0.1.17) (2021-03-16)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.16](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.15...@acko-components/react@0.1.16) (2021-03-15)
+## [0.1.16](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.15...@acko-components/atomic-components@0.1.16) (2021-03-15)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.15](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.14...@acko-components/react@0.1.15) (2021-03-15)
+## [0.1.15](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.14...@acko-components/atomic-components@0.1.15) (2021-03-15)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.14](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.13...@acko-components/react@0.1.14) (2021-03-12)
+## [0.1.14](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.13...@acko-components/atomic-components@0.1.14) (2021-03-12)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.13](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.12...@acko-components/react@0.1.13) (2021-03-10)
+## [0.1.13](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.12...@acko-components/atomic-components@0.1.13) (2021-03-10)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.12](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.11...@acko-components/react@0.1.12) (2021-03-09)
+## [0.1.12](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.11...@acko-components/atomic-components@0.1.12) (2021-03-09)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.11](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.10...@acko-components/react@0.1.11) (2021-02-26)
+## [0.1.11](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.10...@acko-components/atomic-components@0.1.11) (2021-02-26)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.10](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.9...@acko-components/react@0.1.10) (2021-02-26)
+## [0.1.10](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.9...@acko-components/atomic-components@0.1.10) (2021-02-26)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.9](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.8...@acko-components/react@0.1.9) (2021-02-25)
+## [0.1.9](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.8...@acko-components/atomic-components@0.1.9) (2021-02-25)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.8](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.7...@acko-components/react@0.1.8) (2021-02-25)
+## [0.1.8](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.7...@acko-components/atomic-components@0.1.8) (2021-02-25)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.7](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.6...@acko-components/react@0.1.7) (2021-02-23)
+## [0.1.7](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.6...@acko-components/atomic-components@0.1.7) (2021-02-23)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.6](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.5...@acko-components/react@0.1.6) (2021-02-20)
+## [0.1.6](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.5...@acko-components/atomic-components@0.1.6) (2021-02-20)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.5](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.4...@acko-components/react@0.1.5) (2021-02-17)
+## [0.1.5](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.4...@acko-components/atomic-components@0.1.5) (2021-02-17)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.4](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.3...@acko-components/react@0.1.4) (2021-02-16)
+## [0.1.4](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.3...@acko-components/atomic-components@0.1.4) (2021-02-16)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.3](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.2...@acko-components/react@0.1.3) (2021-02-12)
+## [0.1.3](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.2...@acko-components/atomic-components@0.1.3) (2021-02-12)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.2](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.1...@acko-components/react@0.1.2) (2021-02-10)
+## [0.1.2](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.1...@acko-components/atomic-components@0.1.2) (2021-02-10)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 
 
 
-## [0.1.1](https://github.com/Decathlon/vitamin-web/compare/@acko-components/react@0.1.0...@acko-components/react@0.1.1) (2021-02-10)
+## [0.1.1](https://github.com/Decathlon/vitamin-web/compare/@acko-components/atomic-components@0.1.0...@acko-components/atomic-components@0.1.1) (2021-02-10)
 
-**Note:** Version bump only for package @acko-components/react
+**Note:** Version bump only for package @acko-components/atomic-components
 
 
 

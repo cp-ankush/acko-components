@@ -1,21 +1,21 @@
-# `@acko-components/react`
+# `@acko-components/atomic-components`
 
 > Decathlon Design System - Vitamin React components library
 
-<a href="https://decathlon.github.io/vitamin-web/@acko-components/showcase-react"><img src="https://img.shields.io/badge/storybook-react-61DAFB?style=flat&logo=storybook" alt="storybook" /></a></a>
-<a href="https://www.npmjs.com/package/@acko-components/react"><img src="https://img.shields.io/npm/v/@acko-components/react?style=flat&logo=npm" alt="npm version" /></a>
+<a href="https://decathlon.github.io/vitamin-web/@acko-components/showcase-atomic-components"><img src="https://img.shields.io/badge/storybook-react-61DAFB?style=flat&logo=storybook" alt="storybook" /></a></a>
+<a href="https://www.npmjs.com/package/@acko-components/atomic-components"><img src="https://img.shields.io/npm/v/@acko-components/atomic-components?style=flat&logo=npm" alt="npm version" /></a>
 <a href="https://sonarcloud.io/dashboard?id=decathlon_vitamin-web_react"><img src="https://sonarcloud.io/api/project_badges/measure?project=decathlon_vitamin-web_react&metric=alert_status" alt="Quality Gate Status" /></a>
 
 ## Install package
 
-After installing [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) or [yarn](https://yarnpkg.com/en/docs/install), you can install `@acko-components/react` with this command:
+After installing [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) or [yarn](https://yarnpkg.com/en/docs/install), you can install `@acko-components/atomic-components` with this command:
 
 ```sh
 # with npm
-npm i -S @acko-components/react
+npm i -S @acko-components/atomic-components
 
 # with yarn
-yarn add @acko-components/react
+yarn add @acko-components/atomic-components
 ```
 
 ## Install fonts
@@ -83,7 +83,7 @@ Once you have installed this package, you just have to import components you nee
 Here is an example of the integration of `VtmnButton` component:
 
 ```javascript
-import { VtmnButton } from '@acko-components/react';
+import { VtmnButton } from '@acko-components/atomic-components';
 
 const MyComponent = () => (
   <VtmnButton onClick={() => console.log('clicked')}>Click</VtmnButton>
@@ -98,7 +98,7 @@ To do this, there are a [multitude of solutions](https://www.w3schools.com/react
 
 ## Development
 
-To know all the use cases and their associated code, [check out the showcase here](https://decathlon.github.io/vitamin-web/@acko-components/showcase-react).
+To know all the use cases and their associated code, [check out the showcase here](https://decathlon.github.io/vitamin-web/@acko-components/showcase-atomic-components).
 
 ## Changelog
 

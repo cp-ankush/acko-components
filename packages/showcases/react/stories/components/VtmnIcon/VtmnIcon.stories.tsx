@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { VtmnIcon } from '@acko-components/react';
+import { VtmnIcon } from '@acko-components/atomic-components';
 import vitamixIconsList from '@acko-components/icons/dist/vitamix/font/vitamix.json';
 
 import { Story, Meta } from '@storybook/react';

@@ -1,4 +1,4 @@
-import { VtmnToggle } from '@acko-components/react';
+import { VtmnToggle } from '@acko-components/atomic-components';
 
 import { Meta, Story } from '@storybook/react';
 

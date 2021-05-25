@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { VtmnButton } from '@acko-components/react';
+import { VtmnButton } from '@acko-components/atomic-components';
 
 import { Meta, Story } from '@storybook/react';
 
