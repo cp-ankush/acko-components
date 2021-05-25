@@ -1,0 +1,34 @@
+{
+  "name": "@acko-components/css-design-tokens",
+  "version": "0.1.5",
+  "description": "Decathlon Design System - Vitamin specific CSS styles for design tokens",
+  "homepage": "https://github.com/Decathlon/vitamin-web/tree/main/packages/sources/css/src/design-tokens",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Decathlon/vitamin-web.git"
+  },
+  "license": "Apache-2.0",
+  "main": "dist/index.css",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn build:css && yarn build:scss && yarn build:less",
+    "build:css": "postcss src/index.css -o dist/index.css && cross-env FONT_SIZE_BASE=10 postcss src/index.css -o dist/index-base10.css",
+    "build:scss": "cross-env SCSS_FORMAT=true postcss dist/index.css -o dist/index.scss && cross-env SCSS_FORMAT=true postcss dist/index-base10.css -o dist/index-base10.scss",
+    "build:less": "cross-env LESS_FORMAT=true postcss dist/index.css -o dist/index.less && cross-env LESS_FORMAT=true postcss dist/index-base10.css -o dist/index-base10.less"
+  },
+  "devDependencies": {
+    "@acko-components/css-postcss-config": "^0.0.0",
+    "@acko-components/css-tailwind-config": "^0.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ]
+}

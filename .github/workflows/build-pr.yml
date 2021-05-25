@@ -1,0 +1,83 @@
+name: Build Pull Request
+
+on:
+  pull_request: {}
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - name: Restore/create node_modules cache
+        uses: actions/cache@v2
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+        env:
+          HUSKY: 0
+
+      - name: Build sources
+        run: yarn build
+
+      - name: Prettier
+        run: yarn prettier
+
+      - name: Stylelint
+        run: yarn stylelint
+
+      - name: Test
+        run: yarn test
+
+      - name: Build showcases
+        run: yarn build-storybook
+# Cannot be run on pull_request, and pull_request_event is not safe with checkout.
+#  sonarcloud:
+#    name: SonarCloud analysis
+#    strategy:
+#     matrix:
+#       project_base_dir:
+#         [
+#           'packages/sources/css',
+#           'packages/sources/css/src/components/button',
+#           'packages/sources/css/src/components/checkbox',
+#           'packages/sources/css/src/components/link',
+#           'packages/sources/css/src/components/radio-button',
+#           'packages/sources/css/src/components/text-input',
+#           'packages/sources/css/src/components/toggle',
+#           'packages/sources/css/src/design-tokens',
+#           'packages/sources/css/src/utilities',
+#           'packages/sources/icons',
+#           'packages/sources/web-components',
+#           'packages/sources/react',
+#           'packages/sources/svelte',
+#           'packages/sources/vue',
+#         ]
+#
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v2
+#        with:
+#          ref: refs/pull/${{ github.event.number }}/merge
+#          fetch-depth: 0 # Shallow clones should be disabled for a better relevancy of analysis
+#      - name: SonarCloud Scan
+#        uses: SonarSource/sonarcloud-github-action@master
+#        with:
+#          projectBaseDir: ${{ matrix.project_base_dir }}
+#          args: >
+#            -Dsonar.pullrequest.key=${{ github.event.number }}
+#            -Dsonar.pullrequest.branch=PR-${{ github.event.number }}
+#            -Dsonar.pullrequest.base=${{ github.base_ref }}
+#            -Dsonar.scm.revision=${{ github.event.pull_request.head.sha }}
+#            -Dsonar.pullrequest.github.repository=${{ github.repository }}
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Needed to get PR information, if any
+#          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

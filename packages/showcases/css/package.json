@@ -1,0 +1,36 @@
+{
+  "name": "@acko-components/showcase-css",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Decathlon Design System - Vitamin CSS showcase",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build-storybook": "build-storybook",
+    "build-storybook:docs": "build-storybook --docs",
+    "start": "start-storybook -p 6006"
+  },
+  "devDependencies": {
+    "@acko-components/css": "*",
+    "@acko-components/css-tailwind-config": "^0.0.0",
+    "@acko-components/icons": "*",
+    "@acko-components/showcase-core": "^0.0.0",
+    "@storybook/addon-a11y": "^6.2.8",
+    "@storybook/addon-actions": "^6.2.8",
+    "@storybook/addon-backgrounds": "^6.2.8",
+    "@storybook/addon-docs": "^6.2.8",
+    "@storybook/addon-essentials": "^6.2.8",
+    "@storybook/addon-viewport": "^6.2.8",
+    "@storybook/html": "^6.1.20",
+    "@whitespace/storybook-addon-html": "^4.2.0",
+    "storybook-addon-designs": "^5.4.2",
+    "storybook-addon-outline": "^1.2.0",
+    "storybook-design-token": "^0.8.1",
+    "storybook-mobile": "^0.1.29"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ]
+}

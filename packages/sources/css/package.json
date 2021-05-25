@@ -1,0 +1,49 @@
+{
+  "name": "@acko-components/css",
+  "version": "0.9.2",
+  "description": "Decathlon Design System - Vitamin global CSS styles library",
+  "keywords": [
+    "design-system",
+    "ui-kit",
+    "libraries",
+    "css",
+    "vitamin"
+  ],
+  "homepage": "https://github.com/Decathlon/vitamin-web/tree/main/packages/sources/css",
+  "bugs": {
+    "url": "https://github.com/Decathlon/vitamin-web/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Decathlon/vitamin-web.git"
+  },
+  "license": "Apache-2.0",
+  "main": "dist/index.css",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "postcss src/index.css -o dist/index.css && cross-env FONT_SIZE_BASE=10 postcss src/index.css -o dist/index-base10.css && lerna run --parallel --scope \"@acko-components/css-*\" build",
+    "prestart": "yarn build",
+    "start": "chokidar \"src/**\" -i \"**/dist/**\" -c \"yarn build\""
+  },
+  "devDependencies": {
+    "@acko-components/css-postcss-config": "^0.0.0",
+    "@acko-components/css-tailwind-config": "^0.0.0",
+    "chokidar-cli": "^2.1.0",
+    "postcss": "^8.2.5",
+    "stylelint": "^13.8.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^21.0.0",
+    "tailwindcss": "^2.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ]
+}
