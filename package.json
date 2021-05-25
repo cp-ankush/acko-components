@@ -1,23 +1,8 @@
 {
-  "name": "vitamin-web",
+  "name": "acko-components",
   "version": "0.0.0",
   "private": true,
-  "description": "Decathlon Design System - Vitamin libraries for web applications",
-  "keywords": [
-    "design-system",
-    "ui-kit",
-    "libraries",
-    "vitamin"
-  ],
-  "homepage": "https://github.com/Decathlon/vitamin-web",
-  "bugs": {
-    "url": "https://github.com/Decathlon/vitamin-web/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Decathlon/vitamin-web.git"
-  },
-  "license": "Apache-2.0",
+  "description": "Acko Design System - Acko libraries for web applications",
   "workspaces": [
     "packages/sources/css",
     "packages/sources/css/config/*",
@@ -77,16 +62,5 @@
     "node": "^12 || ^14",
     "npm": "please-use-yarn",
     "yarn": ">= 1.19.1"
-  },
-  "licenses": [
-    {
-      "type": "Apache-2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0"
-    }
-  ],
-  "storybook-deployer": {
-    "gitUsername": "Vitamin BOT",
-    "gitEmail": "designsystem@decathlon.net",
-    "commitMessage": "chore: deploy storybook"
   }
 }

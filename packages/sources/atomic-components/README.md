@@ -69,10 +69,10 @@ yarn add @acko-components/icons
 Then, import the icon font in the entry point of your React application:
 
 ```javascript
-import '@acko-components/icons/dist/vitamix/font/vitamix.css';
+import '@acko-components/icons/dist/ackox/font/ackox.css';
 ```
 
-Or you can also import it with a CDN like `unpkg.com` with [this file](https://unpkg.com/@acko-components/icons/dist/vitamix/font/vitamix.css).
+Or you can also import it with a CDN like `unpkg.com` with [this file](https://unpkg.com/@acko-components/icons/dist/ackox/font/ackox.css).
 
 ## Usage
 

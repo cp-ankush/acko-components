@@ -1,10 +1,10 @@
 const fs = require('fs');
 const fse = require('fs-extra');
 
-const vitamixSrcDir = `${__dirname}/../vitamix`;
-const vitamixDestDir = `${__dirname}/../../dist/vitamix`;
+const ackoxSrcDir = `${__dirname}/../ackox`;
+const ackoxDestDir = `${__dirname}/../../dist/ackox`;
 
-fse.copy(vitamixSrcDir, `${vitamixDestDir}/svg`, { overwrite: true }, (err) => {
+fse.copy(ackoxSrcDir, `${ackoxDestDir}/svg`, { overwrite: true }, (err) => {
   if (err) {
     console.error(err);
   }

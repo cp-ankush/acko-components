@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { VitamixId } from '@acko-components/icons/dist/vitamix/font/vitamix';
+import { ackoxId } from '@acko-components/icons/dist/ackox/font/ackox';
 import { VtmnIconColor, VtmnIconSize } from './types';
 
 export interface VtmnIconProps extends React.HTMLAttributes<HTMLElement> {
@@ -16,7 +16,7 @@ export interface VtmnIconProps extends React.HTMLAttributes<HTMLElement> {
   /**
    * The value of the icon.
    **/
-  value: VitamixId;
+  value: ackoxId;
   /**
    * The aria-label of the icon.
    **/

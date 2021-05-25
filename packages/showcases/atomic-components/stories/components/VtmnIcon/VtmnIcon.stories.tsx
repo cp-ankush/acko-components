@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { VtmnIcon } from '@acko-components/atomic-components';
-import vitamixIconsList from '@acko-components/icons/dist/vitamix/font/vitamix.json';
+import ackoxIconsList from '@acko-components/icons/dist/ackox/font/ackox.json';
 
 import { Story, Meta } from '@storybook/react';
 
@@ -41,7 +41,7 @@ export default {
       defaultValue: 'home-fill',
       control: {
         type: 'select',
-        options: Object.keys(vitamixIconsList),
+        options: Object.keys(ackoxIconsList),
       },
     },
     ariaLabel: {
@@ -57,7 +57,7 @@ export default {
     design: {
       type: 'figma',
       url:
-        'https://www.figma.com/file/ujn50nNMfGKzZJccATv7Vk/Vtmn-Vitamix-Icons?node-id=0%3A1',
+        'https://www.figma.com/file/ujn50nNMfGKzZJccATv7Vk/Vtmn-ackox-Icons?node-id=0%3A1',
     },
   },
 } as Meta;

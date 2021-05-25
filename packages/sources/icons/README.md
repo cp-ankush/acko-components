@@ -40,7 +40,7 @@ Reference Icons SVGs like normal images with the `<img>` element.
 
 ```html
 <img
-  src="/node_modules/@acko-components/icons/dist/vitamix/svg/home-fill.svg"
+  src="/node_modules/@acko-components/icons/dist/ackox/svg/home-fill.svg"
   alt="Home icon filled"
   width="32"
   height="32"
@@ -54,14 +54,14 @@ Use the SVG sprite to insert any icon through the `<use>` element. Use the iconâ
 ```html
 <svg width="32" height="32" fill="#001018">
   <use
-    xlink:href="/node_modules/@acko-components/icons/dist/vitamix/sprite/vitamix.svg#home-fill"
+    xlink:href="/node_modules/@acko-components/icons/dist/ackox/sprite/ackox.svg#home-fill"
   />
 </svg>
 ```
 
 ### Icon font
 
-Icon fonts with classes for every icon are also included. Include the icon web fonts in your page via CSS (`./node_modules/@acko-components/icons/dist/vitamix/font/vitamix.css`), then reference the class names as needed (e.g. `vtmx-home-fill` for the `home-fill` icon) in your HTML.
+Icon fonts with classes for every icon are also included. Include the icon web fonts in your page via CSS (`./node_modules/@acko-components/icons/dist/ackox/font/ackox.css`), then reference the class names as needed (e.g. `vtmx-home-fill` for the `home-fill` icon) in your HTML.
 
 Use `font-size` and `color` to change the icon appearance.
 
@@ -125,6 +125,6 @@ See [the contributing docs](https://github.com/Decathlon/vitamin-web/blob/main/C
 
 ## License
 
-Vitamix Icons is the official Decathlon icon library based on the open-source icon library called [Remix Icon](https://remixicon.com/). This original library is under the license Apache 2.0 and has been modified by Decathlon. [Learn more](https://www.decathlon.design/726f8c765/p/76e6e0-vitamix-license).
+ackox Icons is the official Decathlon icon library based on the open-source icon library called [Remix Icon](https://remixicon.com/). This original library is under the license Apache 2.0 and has been modified by Decathlon. [Learn more](https://www.decathlon.design/726f8c765/p/76e6e0-ackox-license).
 
 Apache-2.0 Â© [Decathlon](https://github.com/Decathlon)
