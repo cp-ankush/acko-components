@@ -1,18 +1,18 @@
 import * as React from 'react';
 import { ackoxId } from '@acko-components/icons/dist/ackox/font/ackox';
-import { VtmnIconColor, VtmnIconSize } from './types';
+import { AckoIconColor, AckoIconSize } from './types';
 
-export interface VtmnIconProps extends React.HTMLAttributes<HTMLElement> {
+export interface AckoIconProps extends React.HTMLAttributes<HTMLElement> {
   /**
    * The size of the icon in pixels.
    * @default 24
    **/
-  size?: VtmnIconSize;
+  size?: AckoIconSize;
   /**
    * The color of the icon.
    * @default 'black'
    **/
-  color?: VtmnIconColor;
+  color?: AckoIconColor;
   /**
    * The value of the icon.
    **/
@@ -23,7 +23,7 @@ export interface VtmnIconProps extends React.HTMLAttributes<HTMLElement> {
   ariaLabel?: string;
 }
 
-export const Icon: React.FC<VtmnIconProps> = ({
+export const Icon: React.FC<AckoIconProps> = ({
   size = 24,
   color = 'black',
   value,
@@ -34,7 +34,7 @@ export const Icon: React.FC<VtmnIconProps> = ({
 }) => (
   <span
     className={`acx-${value} ${className ? className : ''}`}
-    style={{ fontSize: size, color: `var(--vtmn-color_${color})`, ...style }}
+    style={{ fontSize: size, color: `var(--acko-color_${color})`, ...style }}
     aria-label={ariaLabel ? ariaLabel : value}
     {...props}></span>
 );

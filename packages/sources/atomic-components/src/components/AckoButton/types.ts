@@ -1,4 +1,4 @@
-export type VtmnButtonVariant =
+export type AckoButtonVariant =
   | 'primary'
   | 'primary-reversed'
   | 'secondary'
@@ -6,4 +6,4 @@ export type VtmnButtonVariant =
   | 'ghost'
   | 'conversion';
 
-export type VtmnButtonSize = 'small' | 'medium' | 'large' | 'stretched';
+export type AckoButtonSize = 'small' | 'medium' | 'large' | 'stretched';

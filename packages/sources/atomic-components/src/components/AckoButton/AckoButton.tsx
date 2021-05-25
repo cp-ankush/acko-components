@@ -1,18 +1,18 @@
 import * as React from 'react';
-import { VtmnButtonVariant, VtmnButtonSize } from './types';
+import { AckoButtonVariant, AckoButtonSize } from './types';
 
-export interface VtmnButtonProps
+export interface AckoButtonProps
   extends React.ComponentPropsWithoutRef<'button'> {
   /**
    * The variant of the button.
    * @default 'primary'
    */
-  variant?: VtmnButtonVariant;
+  variant?: AckoButtonVariant;
   /**
    * The size of the button.
    * @default 'medium'
    */
-  size?: VtmnButtonSize;
+  size?: AckoButtonSize;
   /**
    * The value of the optional icon.
    * @default undefined
@@ -20,16 +20,16 @@ export interface VtmnButtonProps
   icon?: string;
 }
 
-export const VtmnButton = ({
+export const AckoButton = ({
   variant = 'primary',
   size = 'medium',
   children,
   className,
   ...props
-}: VtmnButtonProps) => {
+}: AckoButtonProps) => {
   return (
     <button
-      className={`vtmn-btn vtmn-btn_variant--${variant} vtmn-btn_size--${size} ${
+      className={`acko-btn acko-btn_variant--${variant} acko-btn_size--${size} ${
         className ? className : ''
       }`}
       {...props}>
@@ -38,4 +38,4 @@ export const VtmnButton = ({
   );
 };
 
-export default React.memo(VtmnButton);
+export default React.memo(AckoButton);

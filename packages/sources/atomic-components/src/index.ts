@@ -1,7 +1,7 @@
 import '@acko-components/css-design-tokens/dist/index.css';
 
-export { VtmnButton } from './components/VtmnButton';
-export { VtmnIcon } from './components/VtmnIcon';
-export { VtmnLink } from './components/VtmnLink';
-export { VtmnTextInput } from './components/VtmnTextInput';
-export { VtmnToggle } from './components/VtmnToggle';
+export { AckoButton } from './components/AckoButton';
+export { AckoIcon } from './components/AckoIcon';
+export { AckoLink } from './components/AckoLink';
+export { AckoTextInput } from './components/AckoTextInput';
+export { AckoToggle } from './components/AckoToggle';

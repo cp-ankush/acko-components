@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { VtmnIcon } from '@acko-components/atomic-components';
+import { AckoIcon } from '@acko-components/atomic-components';
 import ackoxIconsList from '@acko-components/icons/dist/ackox/font/ackox.json';
 
 import { Story, Meta } from '@storybook/react';
 
 export default {
-  title: 'Components/VtmnIcon',
-  component: VtmnIcon,
+  title: 'Components/AckoIcon',
+  component: AckoIcon,
   argTypes: {
     size: {
       type: { name: 'number', required: false },
@@ -57,11 +57,11 @@ export default {
     design: {
       type: 'figma',
       url:
-        'https://www.figma.com/file/ujn50nNMfGKzZJccATv7Vk/Vtmn-ackox-Icons?node-id=0%3A1',
+        'https://www.figma.com/file/ujn50nNMfGKzZJccATv7Vk/Acko-ackox-Icons?node-id=0%3A1',
     },
   },
 } as Meta;
 
-const Template: Story = (args) => <VtmnIcon {...args} />;
+const Template: Story = (args) => <AckoIcon {...args} />;
 
 export const Overview = Template.bind({});

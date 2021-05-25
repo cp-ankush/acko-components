@@ -1,23 +1,7 @@
 {
   "name": "@acko-components/icons",
   "version": "0.3.1",
-  "description": "Decathlon Design System - Vitamin icons library",
-  "keywords": [
-    "design-system",
-    "ui-kit",
-    "libraries",
-    "icons",
-    "vitamin"
-  ],
-  "homepage": "https://github.com/Decathlon/vitamin-web/tree/main/packages/sources/icons",
-  "bugs": {
-    "url": "https://github.com/Decathlon/vitamin-web/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Decathlon/vitamin-web.git"
-  },
-  "license": "Apache-2.0",
+  "description": "Acko design - Acko icons library",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -40,14 +24,5 @@
     "fs-extra": "^9.1.0",
     "spritesh": "^1.2.1",
     "svgo": "^2.2.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "licenses": [
-    {
-      "type": "Apache-2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0"
-    }
-  ]
+  }
 }

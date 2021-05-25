@@ -1,8 +1,8 @@
 import * as React from 'react';
 import clsx from 'clsx';
-import { VtmnToggleSize } from './types';
+import { AckoToggleSize } from './types';
 
-export interface VtmnToggleProps
+export interface AckoToggleProps
   extends React.ComponentPropsWithoutRef<'input'> {
   /**
    * ID of the toggle.
@@ -20,20 +20,20 @@ export interface VtmnToggleProps
    * The size of the toggle.
    * @default 'medium'
    */
-  size?: VtmnToggleSize;
+  size?: AckoToggleSize;
 }
 
-export const VtmnToggle = ({
+export const AckoToggle = ({
   className,
   id,
   labelText,
   size = 'medium',
   ...props
-}: VtmnToggleProps) => {
+}: AckoToggleProps) => {
   return (
     <div
-      className={clsx('vtmn-toggle', `vtmn-toggle_size--${size}`, className)}>
-      <div className="vtmn-toggle_switch">
+      className={clsx('Acko-toggle', `Acko-toggle_size--${size}`, className)}>
+      <div className="Acko-toggle_switch">
         <input type="checkbox" id={id} {...props} />
         <span aria-hidden="true"></span>
       </div>
@@ -42,4 +42,4 @@ export const VtmnToggle = ({
   );
 };
 
-export default React.memo(VtmnToggle);
+export default React.memo(AckoToggle);

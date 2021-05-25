@@ -1,15 +1,15 @@
-import { VtmnTextInput } from '@acko-components/atomic-components';
+import { AckoTextInput } from '@acko-components/atomic-components';
 
 import { Meta, Story } from '@storybook/react';
 
 export default {
-  title: 'Components/VtmnTextInput',
-  component: VtmnTextInput,
+  title: 'Components/AckoTextInput',
+  component: AckoTextInput,
   argTypes: {
     id: {
       type: { name: 'string', required: true },
       description: 'The id of the input.',
-      defaultValue: 'vtmn-input',
+      defaultValue: 'Acko-input',
       control: { type: 'text' },
     },
     labelText: {
@@ -63,11 +63,11 @@ export default {
     design: {
       type: 'figma',
       url:
-        'https://www.figma.com/file/zDZIyayUlr1yTWrsi7cFoo/Vtmn-Web?node-id=150%3A3410',
+        'https://www.figma.com/file/zDZIyayUlr1yTWrsi7cFoo/Acko-Web?node-id=150%3A3410',
     },
   },
 } as Meta;
 
-const Template: Story = (args) => <VtmnTextInput {...args} />;
+const Template: Story = (args) => <AckoTextInput {...args} />;
 
 export const Overview = Template.bind({});

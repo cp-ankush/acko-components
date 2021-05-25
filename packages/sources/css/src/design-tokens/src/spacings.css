@@ -3,15 +3,15 @@
  * @presenter Spacing
  */
 :root {
-  --vtmn-spacing_0: 0;
-  --vtmn-spacing_1: rem(4px);
-  --vtmn-spacing_2: rem(8px);
-  --vtmn-spacing_3: rem(12px);
-  --vtmn-spacing_4: rem(16px);
-  --vtmn-spacing_5: rem(24px);
-  --vtmn-spacing_6: rem(32px);
-  --vtmn-spacing_7: rem(40px);
-  --vtmn-spacing_8: rem(48px);
-  --vtmn-spacing_9: rem(56px);
-  --vtmn-spacing_10: rem(64px);
+  --acko-spacing_0: 0;
+  --acko-spacing_1: rem(4px);
+  --acko-spacing_2: rem(8px);
+  --acko-spacing_3: rem(12px);
+  --acko-spacing_4: rem(16px);
+  --acko-spacing_5: rem(24px);
+  --acko-spacing_6: rem(32px);
+  --acko-spacing_7: rem(40px);
+  --acko-spacing_8: rem(48px);
+  --acko-spacing_9: rem(56px);
+  --acko-spacing_10: rem(64px);
 }

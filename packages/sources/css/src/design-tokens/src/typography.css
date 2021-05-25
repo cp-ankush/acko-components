@@ -3,8 +3,8 @@
  * @presenter FontFamily
  */
 :root {
-  --vtmn-typo_font-family: 'Roboto', 'system-ui', '-apple-system', sans-serif;
-  --vtmn-typo_font-family--condensed: 'Roboto Condensed', 'system-ui',
+  --acko-typo_font-family: 'Roboto', 'system-ui', '-apple-system', sans-serif;
+  --acko-typo_font-family--condensed: 'Roboto Condensed', 'system-ui',
     '-apple-system', sans-serif;
 }
 
@@ -13,8 +13,8 @@
  * @presenter FontWeight
  */
 :root {
-  --vtmn-typo_font-weight--regular: 400;
-  --vtmn-typo_font-weight--bold: 700;
+  --acko-typo_font-weight--regular: 400;
+  --acko-typo_font-weight--bold: 700;
 }
 
 /**
@@ -22,16 +22,16 @@
  * @presenter FontSize
  */
 :root {
-  --vtmn-typo_display-1-font-size: rem(60px);
-  --vtmn-typo_display-2-font-size: rem(42px);
-  --vtmn-typo_title-1-font-size: rem(40px);
-  --vtmn-typo_title-2-font-size: rem(36px);
-  --vtmn-typo_title-3-font-size: rem(28px);
-  --vtmn-typo_title-4-font-size: rem(24px);
-  --vtmn-typo_title-5-font-size: rem(20px);
-  --vtmn-typo_text-1-font-size: rem(18px);
-  --vtmn-typo_text-2-font-size: rem(16px);
-  --vtmn-typo_text-3-font-size: rem(14px);
+  --acko-typo_display-1-font-size: rem(60px);
+  --acko-typo_display-2-font-size: rem(42px);
+  --acko-typo_title-1-font-size: rem(40px);
+  --acko-typo_title-2-font-size: rem(36px);
+  --acko-typo_title-3-font-size: rem(28px);
+  --acko-typo_title-4-font-size: rem(24px);
+  --acko-typo_title-5-font-size: rem(20px);
+  --acko-typo_text-1-font-size: rem(18px);
+  --acko-typo_text-2-font-size: rem(16px);
+  --acko-typo_text-3-font-size: rem(14px);
 }
 
 /**
@@ -39,102 +39,102 @@
  * @presenter LineHeight
  */
 :root {
-  --vtmn-typo_display-1-line-height: 1;
-  --vtmn-typo_display-2-line-height: 1.04;
-  --vtmn-typo_title-1-line-height: 1.1;
-  --vtmn-typo_title-2-line-height: 1.11;
-  --vtmn-typo_title-3-line-height: 1.14;
-  --vtmn-typo_title-4-line-height: 1.16;
-  --vtmn-typo_title-5-line-height: 1.2;
-  --vtmn-typo_text-1-line-height: 1.55;
-  --vtmn-typo_text-2-line-height: 1.5;
-  --vtmn-typo_text-3-line-height: 1.42;
+  --acko-typo_display-1-line-height: 1;
+  --acko-typo_display-2-line-height: 1.04;
+  --acko-typo_title-1-line-height: 1.1;
+  --acko-typo_title-2-line-height: 1.11;
+  --acko-typo_title-3-line-height: 1.14;
+  --acko-typo_title-4-line-height: 1.16;
+  --acko-typo_title-5-line-height: 1.2;
+  --acko-typo_text-1-line-height: 1.55;
+  --acko-typo_text-2-line-height: 1.5;
+  --acko-typo_text-3-line-height: 1.42;
 }
 
 @media screen and (min-width: 600px) and (max-width: 899px) {
   :root {
-    --vtmn-typo_display-1-font-size: rem(76px);
-    --vtmn-typo_display-2-font-size: rem(48px);
-    --vtmn-typo_title-1-font-size: rem(44px);
-    --vtmn-typo_title-2-font-size: rem(38px);
-    --vtmn-typo_title-3-font-size: rem(30px);
-    --vtmn-typo_title-4-font-size: rem(24px);
-    --vtmn-typo_title-5-font-size: rem(20px);
+    --acko-typo_display-1-font-size: rem(76px);
+    --acko-typo_display-2-font-size: rem(48px);
+    --acko-typo_title-1-font-size: rem(44px);
+    --acko-typo_title-2-font-size: rem(38px);
+    --acko-typo_title-3-font-size: rem(30px);
+    --acko-typo_title-4-font-size: rem(24px);
+    --acko-typo_title-5-font-size: rem(20px);
   }
 
   :root {
-    --vtmn-typo_display-1-line-height: 1;
-    --vtmn-typo_display-2-line-height: 1.08;
-    --vtmn-typo_title-1-line-height: 1.09;
-    --vtmn-typo_title-2-line-height: 1.15;
-    --vtmn-typo_title-3-line-height: 1.2;
-    --vtmn-typo_title-4-line-height: 1.16;
-    --vtmn-typo_title-5-line-height: 1.2;
+    --acko-typo_display-1-line-height: 1;
+    --acko-typo_display-2-line-height: 1.08;
+    --acko-typo_title-1-line-height: 1.09;
+    --acko-typo_title-2-line-height: 1.15;
+    --acko-typo_title-3-line-height: 1.2;
+    --acko-typo_title-4-line-height: 1.16;
+    --acko-typo_title-5-line-height: 1.2;
   }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1199px) {
   :root {
-    --vtmn-typo_display-1-font-size: rem(76px);
-    --vtmn-typo_display-2-font-size: rem(48px);
-    --vtmn-typo_title-1-font-size: rem(44px);
-    --vtmn-typo_title-2-font-size: rem(38px);
-    --vtmn-typo_title-3-font-size: rem(30px);
-    --vtmn-typo_title-4-font-size: rem(24px);
-    --vtmn-typo_title-5-font-size: rem(20px);
+    --acko-typo_display-1-font-size: rem(76px);
+    --acko-typo_display-2-font-size: rem(48px);
+    --acko-typo_title-1-font-size: rem(44px);
+    --acko-typo_title-2-font-size: rem(38px);
+    --acko-typo_title-3-font-size: rem(30px);
+    --acko-typo_title-4-font-size: rem(24px);
+    --acko-typo_title-5-font-size: rem(20px);
   }
 
   :root {
-    --vtmn-typo_display-1-line-height: 1;
-    --vtmn-typo_display-2-line-height: 1.06;
-    --vtmn-typo_title-1-line-height: 1.08;
-    --vtmn-typo_title-2-line-height: 1.1;
-    --vtmn-typo_title-3-line-height: 1.12;
-    --vtmn-typo_title-4-line-height: 1.23;
-    --vtmn-typo_title-5-line-height: 1.2;
+    --acko-typo_display-1-line-height: 1;
+    --acko-typo_display-2-line-height: 1.06;
+    --acko-typo_title-1-line-height: 1.08;
+    --acko-typo_title-2-line-height: 1.1;
+    --acko-typo_title-3-line-height: 1.12;
+    --acko-typo_title-4-line-height: 1.23;
+    --acko-typo_title-5-line-height: 1.2;
   }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1799px) {
   :root {
-    --vtmn-typo_display-1-font-size: rem(96px);
-    --vtmn-typo_display-2-font-size: rem(60px);
-    --vtmn-typo_title-1-font-size: rem(48px);
-    --vtmn-typo_title-2-font-size: rem(40px);
-    --vtmn-typo_title-3-font-size: rem(32px);
-    --vtmn-typo_title-4-font-size: rem(26px);
-    --vtmn-typo_title-5-font-size: rem(20px);
+    --acko-typo_display-1-font-size: rem(96px);
+    --acko-typo_display-2-font-size: rem(60px);
+    --acko-typo_title-1-font-size: rem(48px);
+    --acko-typo_title-2-font-size: rem(40px);
+    --acko-typo_title-3-font-size: rem(32px);
+    --acko-typo_title-4-font-size: rem(26px);
+    --acko-typo_title-5-font-size: rem(20px);
   }
 
   :root {
-    --vtmn-typo_display-1-line-height: 1;
-    --vtmn-typo_display-2-line-height: 1.06;
-    --vtmn-typo_title-1-line-height: 1.08;
-    --vtmn-typo_title-2-line-height: 1.1;
-    --vtmn-typo_title-3-line-height: 1.12;
-    --vtmn-typo_title-4-line-height: 1.23;
-    --vtmn-typo_title-5-line-height: 1.2;
+    --acko-typo_display-1-line-height: 1;
+    --acko-typo_display-2-line-height: 1.06;
+    --acko-typo_title-1-line-height: 1.08;
+    --acko-typo_title-2-line-height: 1.1;
+    --acko-typo_title-3-line-height: 1.12;
+    --acko-typo_title-4-line-height: 1.23;
+    --acko-typo_title-5-line-height: 1.2;
   }
 }
 
 @media screen and (min-width: 1800px) {
   :root {
-    --vtmn-typo_display-1-font-size: rem(96px);
-    --vtmn-typo_display-2-font-size: rem(60px);
-    --vtmn-typo_title-1-font-size: rem(48px);
-    --vtmn-typo_title-2-font-size: rem(40px);
-    --vtmn-typo_title-3-font-size: rem(32px);
-    --vtmn-typo_title-4-font-size: rem(26px);
-    --vtmn-typo_title-5-font-size: rem(20px);
+    --acko-typo_display-1-font-size: rem(96px);
+    --acko-typo_display-2-font-size: rem(60px);
+    --acko-typo_title-1-font-size: rem(48px);
+    --acko-typo_title-2-font-size: rem(40px);
+    --acko-typo_title-3-font-size: rem(32px);
+    --acko-typo_title-4-font-size: rem(26px);
+    --acko-typo_title-5-font-size: rem(20px);
   }
 
   :root {
-    --vtmn-typo_display-1-line-height: 1;
-    --vtmn-typo_display-2-line-height: 1.06;
-    --vtmn-typo_title-1-line-height: 1.08;
-    --vtmn-typo_title-2-line-height: 1.1;
-    --vtmn-typo_title-3-line-height: 1.12;
-    --vtmn-typo_title-4-line-height: 1.23;
-    --vtmn-typo_title-5-line-height: 1.2;
+    --acko-typo_display-1-line-height: 1;
+    --acko-typo_display-2-line-height: 1.06;
+    --acko-typo_title-1-line-height: 1.08;
+    --acko-typo_title-2-line-height: 1.1;
+    --acko-typo_title-3-line-height: 1.12;
+    --acko-typo_title-4-line-height: 1.23;
+    --acko-typo_title-5-line-height: 1.2;
   }
 }

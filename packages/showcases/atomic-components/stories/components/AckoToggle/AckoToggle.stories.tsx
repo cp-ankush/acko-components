@@ -1,15 +1,15 @@
-import { VtmnToggle } from '@acko-components/atomic-components';
+import { AckoToggle } from '@acko-components/atomic-components';
 
 import { Meta, Story } from '@storybook/react';
 
 export default {
-  title: 'Components/VtmnToggle',
-  component: VtmnToggle,
+  title: 'Components/AckoToggle',
+  component: AckoToggle,
   argTypes: {
     id: {
       type: { name: 'string', required: true },
       description: 'The id of the toggle.',
-      defaultValue: 'vtmn-toggle',
+      defaultValue: 'Acko-toggle',
       control: { type: 'text' },
     },
     labelText: {
@@ -47,6 +47,6 @@ export default {
   },
 } as Meta;
 
-const Template: Story = (args) => <VtmnToggle {...args} />;
+const Template: Story = (args) => <AckoToggle {...args} />;
 
 export const Overview = Template.bind({});

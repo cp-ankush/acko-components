@@ -1,13 +1,7 @@
 {
   "name": "@acko-components/css-design-tokens",
   "version": "0.1.5",
-  "description": "Decathlon Design System - Vitamin specific CSS styles for design tokens",
-  "homepage": "https://github.com/Decathlon/vitamin-web/tree/main/packages/sources/css/src/design-tokens",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Decathlon/vitamin-web.git"
-  },
-  "license": "Apache-2.0",
+  "description": "Acko design - Acko specific CSS styles for design tokens",
   "main": "dist/index.css",
   "files": [
     "dist"
@@ -21,14 +15,5 @@
   "devDependencies": {
     "@acko-components/css-postcss-config": "^0.0.0",
     "@acko-components/css-tailwind-config": "^0.0.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "licenses": [
-    {
-      "type": "Apache-2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0"
-    }
-  ]
+  }
 }

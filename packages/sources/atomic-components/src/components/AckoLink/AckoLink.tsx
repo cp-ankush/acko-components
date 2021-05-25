@@ -1,13 +1,13 @@
 import * as React from 'react';
 import clsx from 'clsx';
-import { VtmnLinkSize } from './types';
+import { AckoLinkSize } from './types';
 
-export interface VtmnLinkProps extends React.ComponentPropsWithoutRef<'a'> {
+export interface AckoLinkProps extends React.ComponentPropsWithoutRef<'a'> {
   /**
    * The size of the link.
    * @default 'medium'
    */
-  size?: VtmnLinkSize;
+  size?: AckoLinkSize;
 
   /**
    * Whether link is standalone or not.
@@ -17,19 +17,19 @@ export interface VtmnLinkProps extends React.ComponentPropsWithoutRef<'a'> {
   isStandalone?: boolean;
 }
 
-export const VtmnLink = ({
+export const AckoLink = ({
   isStandalone = false,
   size = 'medium',
   children,
   className,
   ...props
-}: VtmnLinkProps) => {
+}: AckoLinkProps) => {
   return (
     <a
       className={clsx(
-        'vtmn-link',
-        `vtmn-link_size--${size}`,
-        { 'vtmn-link--standalone': isStandalone },
+        'Acko-link',
+        `Acko-link_size--${size}`,
+        { 'Acko-link--standalone': isStandalone },
         className,
       )}
       {...props}>
@@ -38,4 +38,4 @@ export const VtmnLink = ({
   );
 };
 
-export default React.memo(VtmnLink);
+export default React.memo(AckoLink);

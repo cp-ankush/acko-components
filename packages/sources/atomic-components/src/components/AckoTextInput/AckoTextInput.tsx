@@ -1,7 +1,7 @@
 import * as React from 'react';
 import clsx from 'clsx';
 
-export interface VtmnTextInputProps
+export interface AckoTextInputProps
   extends React.ComponentPropsWithoutRef<'input'> {
   /**
    * ID of the input
@@ -50,7 +50,7 @@ export interface VtmnTextInputProps
   error?: boolean;
 }
 
-export const VtmnTextInput = ({
+export const AckoTextInput = ({
   className,
   disabled = false,
   error = false,
@@ -61,20 +61,20 @@ export const VtmnTextInput = ({
   placeholder,
   valid = false,
   ...props
-}: VtmnTextInputProps) => {
+}: AckoTextInputProps) => {
   return (
     <>
-      <label className="vtmn-text-input_label" htmlFor={id}>
+      <label className="Acko-text-input_label" htmlFor={id}>
         {labelText}
       </label>
 
       {multiline ? (
         <textarea
           className={clsx(
-            'vtmn-text-input',
+            'Acko-text-input',
             className,
-            { 'vtmn-text-input--valid': valid && !disabled },
-            { 'vtmn-text-input--error': error && !disabled },
+            { 'Acko-text-input--valid': valid && !disabled },
+            { 'Acko-text-input--error': error && !disabled },
           )}
           id={id}
           placeholder={placeholder}
@@ -84,10 +84,10 @@ export const VtmnTextInput = ({
       ) : (
         <input
           className={clsx(
-            'vtmn-text-input',
+            'Acko-text-input',
             className,
-            { 'vtmn-text-input--valid': valid && !disabled },
-            { 'vtmn-text-input--error': error && !disabled },
+            { 'Acko-text-input--valid': valid && !disabled },
+            { 'Acko-text-input--error': error && !disabled },
           )}
           id={id}
           type="text"
@@ -98,10 +98,10 @@ export const VtmnTextInput = ({
       )}
 
       {helperText && (
-        <p className="vtmn-text-input_helper-text">{helperText}</p>
+        <p className="Acko-text-input_helper-text">{helperText}</p>
       )}
     </>
   );
 };
 
-export default React.memo(VtmnTextInput);
+export default React.memo(AckoTextInput);

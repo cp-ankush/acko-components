@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { VtmnButton } from '@acko-components/atomic-components';
+import { AckoButton } from '@acko-components/atomic-components';
 
 import { Meta, Story } from '@storybook/react';
 
 export default {
-  title: 'Components/VtmnButton',
-  component: VtmnButton,
+  title: 'Components/AckoButton',
+  component: AckoButton,
   argTypes: {
     variant: {
       type: { name: 'string', required: false },
@@ -50,11 +50,11 @@ export default {
     design: {
       type: 'figma',
       url:
-        'https://www.figma.com/file/zDZIyayUlr1yTWrsi7cFoo/Vtmn-Web?node-id=31%3A136',
+        'https://www.figma.com/file/zDZIyayUlr1yTWrsi7cFoo/Acko-Web?node-id=31%3A136',
     },
   },
 } as Meta;
 
-const Template: Story = (args) => <VtmnButton {...args} />;
+const Template: Story = (args) => <AckoButton {...args} />;
 
 export const Overview = Template.bind({});
