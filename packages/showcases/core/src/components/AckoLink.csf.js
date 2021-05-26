@@ -1,5 +1,5 @@
 export default (component) => ({
-  title: 'Components/VtmnLink',
+  title: 'Components/AckoLink',
   component,
   argTypes: {
     href: {
@@ -48,7 +48,7 @@ export default (component) => ({
     design: {
       type: 'figma',
       url:
-        'https://www.figma.com/file/zDZIyayUlr1yTWrsi7cFoo/Vtmn---Web?node-id=1207%3A8898',
+        'https://www.figma.com/file/zDZIyayUlr1yTWrsi7cFoo/Acko---Web?node-id=1207%3A8898',
     },
   },
 });

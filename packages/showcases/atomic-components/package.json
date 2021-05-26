@@ -2,8 +2,7 @@
   "name": "@acko-components/showcase-atomic-components",
   "version": "0.0.0",
   "private": true,
-  "description": "Decathlon Design System - Vitamin React showcase",
-  "license": "Apache-2.0",
+  "description": "Acko Design - Acko atomic components showcase",
   "scripts": {
     "build-storybook": "build-storybook",
     "build-storybook:docs": "build-storybook --docs",
@@ -23,11 +22,5 @@
     "storybook-addon-designs": "^5.4.3",
     "storybook-addon-outline": "^1.2.0",
     "storybook-mobile": "^0.1.29"
-  },
-  "licenses": [
-    {
-      "type": "Apache-2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0"
-    }
-  ]
+  }
 }

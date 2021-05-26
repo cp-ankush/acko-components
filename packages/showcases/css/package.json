@@ -2,8 +2,7 @@
   "name": "@acko-components/showcase-css",
   "version": "0.0.0",
   "private": true,
-  "description": "Decathlon Design System - Vitamin CSS showcase",
-  "license": "Apache-2.0",
+  "description": "Acko Design - Acko CSS showcase",
   "scripts": {
     "build-storybook": "build-storybook",
     "build-storybook:docs": "build-storybook --docs",
@@ -26,11 +25,5 @@
     "storybook-addon-outline": "^1.2.0",
     "storybook-design-token": "^0.8.1",
     "storybook-mobile": "^0.1.29"
-  },
-  "licenses": [
-    {
-      "type": "Apache-2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0"
-    }
-  ]
+  }
 }

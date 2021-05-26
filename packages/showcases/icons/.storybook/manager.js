@@ -1,6 +1,6 @@
 import { addons } from '@storybook/addons';
 import { themes } from '@storybook/theming';
-import vtmnIconsLogo from '@acko-components/showcase-core/images/vtmn-icons-logo.png';
+import ackoIconsLogo from '@acko-components/showcase-core/images/acko-icons-logo.png';
 
 addons.setConfig({
   panelPosition: 'right',
@@ -8,7 +8,7 @@ addons.setConfig({
     ...themes.normal,
     brandTitle: '@acko-components/icons',
     brandUrl: 'https://github.com/Decathlon/vitamin-web',
-    brandImage: vtmnIconsLogo,
+    brandImage: ackoIconsLogo,
 
     colorPrimary: '#007dbc',
     colorSecondary: '#4e5d6b',
