@@ -11,6 +11,7 @@
     "packages/sources/css/src/components/*",
     "packages/sources/icons",
     "packages/sources/atomic-components",
+    "packages/sources/atomic-components/packages/*",
     "packages/showcases/*"
   ],
   "scripts": {
