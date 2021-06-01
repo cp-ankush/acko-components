@@ -24,6 +24,11 @@ export default {
         ],
       },
     },
+    className: {
+      type: { name: 'string', required: false },
+      description: 'Styles of the button.',
+      defaultValue: 'acko-bg-info',
+    },
     size: {
       type: { name: 'string', required: false },
       description: 'The size of the button.',
@@ -55,5 +60,4 @@ export default {
 } as Meta;
 
 const Template: Story = (args) => <AckoButton {...args} />;
-
 export const Overview = Template.bind({});
