@@ -7,7 +7,7 @@ addons.setConfig({
   theme: {
     ...themes.normal,
     brandTitle: '@acko-components/icons',
-    brandUrl: 'https://github.com/Decathlon/vitamin-web',
+    brandUrl: '',
     brandImage: ackoIconsLogo,
 
     colorPrimary: '#007dbc',
