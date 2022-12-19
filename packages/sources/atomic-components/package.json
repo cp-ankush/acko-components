@@ -34,7 +34,7 @@
     "@acko-components/icons": "^0.3.1",
     "@acko-components/button": "^0.3.6",
     "@babel/runtime": "^7.12.5",
-    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-commonjs": "^24.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
     "@rollup/plugin-typescript": "^8.0.0",
     "@rollup/plugin-url": "^6.0.0",
